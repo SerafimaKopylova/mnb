@@ -1,0 +1,167 @@
+
+  .body {
+    width: 100%;
+    margin: 0;
+    font-family: Inter;
+  }
+  .header {
+    display: block; 
+    height: 50px; 
+    background-color: pink;
+   }
+   
+  
+  .container {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 20px;
+  }
+  
+  .horizontal {
+    display: flex;
+    align-items: center;
+  }
+  
+  .space-between {
+    justify-content: space-between;
+  }
+  .header { border-bottom: 1px solid #000;
+    background: #e4e4e4;
+    width: 100%;
+
+  }
+  
+  .header__container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: 36px;
+  }
+  
+  
+  .navigation__item {
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 135%;
+    text-decoration: none;
+  
+    background-color: lightblue;
+    padding: 12px;
+    border-radius: 50px 50px 50px 50px;
+    border: 1px solid black;
+  }
+  
+  .navigation__left .navigation__item:not(:last-child) {
+    margin-right: 14px;
+  }
+  
+  .navigation__right .navigation__item:not(:first-child) {
+    margin-left: 14px;
+  }
+  
+  .navigation__item:nth-child(2) {
+    color: red;
+  }
+  .block1 {
+
+position: relative;
+
+}
+.block1 {
+
+position: absolute;
+
+top: 50%;
+
+left: 65px;
+
+text-transform: uppercase;
+
+color: white;
+
+width: 350px;
+
+background: #00000094;
+
+padding: 10px;
+
+text-align: center;
+
+font: bold 24px/34px Helvetica, Sans-Serif;
+
+}
+
+.inline {
+    display: inline-block; 
+  }
+  .logo {
+   position: relative;
+    border: solid orange;
+    height: 100px;
+    width: 100px;
+      bottom: 10%;
+    left: 300%;
+    }
+  
+  .contacts { 
+    position: relative;
+    height: 100px;
+    width: 200px;
+    bottom: 10%;
+    left: 290%;
+      }
+  
+  .vverh {
+      position: fixed;
+    background-color: #673ab7;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 22px;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+  .vverh:before {
+    content: "";
+    text-align: center;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 17V4M3 10l7-7 7 7'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  .knopka {
+    background-color: #ff6ebbab;
+}
+#forma {
+    padding-right: 170px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 222px;
+}
+.forma {
+    width: 236px;
+    height: 44px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 32px;
+    border: 3px white solid;
+    border-radius: 30px;
+}
+#outend {
+    width: 1000px;
+    margin-left: auto; margin-right: auto;
+}
+
+#end {
+    display: flex;
+    padding-left: 179px;
+    padding-bottom: 85px;
+}
